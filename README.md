@@ -11,3 +11,5 @@ Step 2: Edit my.cnf to customize your backup environment
 Step 3: Execute qbnox.sh to take your backups
 
 Command: $ ./qbnox.sh
+
+Demo Video: https://youtu.be/q8iF5YjDmIk
