@@ -28,7 +28,7 @@
 
 timestamp=`date +%d%m%y%H%M%S`
 
-cnf=$HOME/my.cnf
+cnf=my.cnf
 
 # specify the backup directory home
 backupdir=$(awk '/^backupdir/ {split($0, a, "="); gsub(/^[ \t]+|[ \t]+$/, "", a[2]); print a[2]; exit}' $cnf)
